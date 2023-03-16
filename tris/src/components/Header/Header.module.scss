@@ -1,0 +1,13 @@
+@import "../../shared/partials/variables";
+
+.headerContainer{
+    background-color: $blue;
+    .header{
+        
+        color: $white;
+        text-align: center;
+        padding: 10px 0px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}

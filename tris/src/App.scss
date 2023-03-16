@@ -1,0 +1,44 @@
+@import "./shared/partials/variables";
+
+// general styles 
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+// main box
+  .container{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    .trisBox{
+      margin: 0 auto;
+      border:1px solid black;
+      width:300px;
+      height:300px;
+    
+    
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+    }
+
+    .leaderBoard{
+
+      .winnerTitle{
+        font-size:30px;
+        margin-bottom: 15px;
+      }
+
+      button{
+        padding:10px;
+        cursor: pointer;
+      }
+      
+    }
+  }
